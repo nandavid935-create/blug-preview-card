@@ -122,6 +122,15 @@ h2:active {
 
     .attribution { font-size: 0.6875rem; text-align: center; margin-top: 20px; }
     .attribution a { color: hsl(228, 45%, 44%); }
+    @media (prefers-reduced-motion: reduce) {
+  h2 {
+    transition: none;
+  }
+
+  h2:hover {
+    transform: none;
+  }
+}
   </style>
 </head>
 <body>
